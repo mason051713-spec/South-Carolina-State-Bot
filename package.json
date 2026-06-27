@@ -1,0 +1,57 @@
+{
+  "name": "south-carolina-state-bot",
+  "version": "1.0.0",
+  "description": "A comprehensive Discord bot for ERLC (Emergency Response: Liberty County) staff management",
+  "main": "main.py",
+  "scripts": {
+    "start": "python main.py",
+    "install-deps": "pip install -r requirements.txt"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "erlc",
+    "roleplay",
+    "south-carolina"
+  ],
+  "author": "mason051713-spec",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mason051713-spec/South-Carolina-State-Bot.git"
+  },
+  "python": {
+    "version": "3.8+",
+    "dependencies": {
+      "discord.py": "2.4.0",
+      "python-dotenv": "1.0.0",
+      "aiohttp": "3.9.1",
+      "pytz": "2024.1"
+    }
+  },
+  "features": [
+    "Staff Management & Infractions",
+    "Application Management",
+    "Training System",
+    "Session Management",
+    "Duty & Shift Tracking",
+    "Moderation & Rules",
+    "Call Sign System",
+    "Support Tickets",
+    "Joke Generator",
+    "World Clock & Timezones"
+  ],
+  "commands": {
+    "staff_management": 6,
+    "applications": 2,
+    "training": 2,
+    "sessions": 3,
+    "duty": 4,
+    "moderation": 9,
+    "callsigns": 3,
+    "utilities": 3,
+    "fun": 1,
+    "clock": 4
+  },
+  "total_commands": 37
+}
